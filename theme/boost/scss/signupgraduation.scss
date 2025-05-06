@@ -1,0 +1,72 @@
+[role="main"] {
+    display: flex;
+}
+
+.login-view {
+    background: url('../pix/bg3.png') no-repeat fixed;
+    background-attachment: scroll;
+    background-size: cover;
+    padding: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -30px;
+    margin-top: -2px;
+    width: 50%;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.images { 
+    background: url('../pix/images/stg1.png') no-repeat center center;
+    background-size: 62%;
+    display: flex;
+    gap: 1em;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    transition: background-image 0.5s ease;  // Smooth background transition
+}
+
+.static-image {
+    width: 100%;
+    position: relative;
+    margin: 2em 0em 4em 3.5em;
+    z-index: 1;  // Ensure foreground image stays above background
+}
+
+.login-imgtitle {
+    height: 5em;
+    padding: 0 9em;
+    display: flex;
+    text-align: center;
+}
+
+.login-imgtitle .login-title {
+    font-family: "Oxanium";
+    position: relative;
+    z-index: 1;  // Ensure title stays above background
+}
+
+.tilted-rectangles {
+    display: flex;
+    gap: 10px;
+    position: relative;
+    z-index: 1;  // Ensure rectangles stay above background
+}
+
+.tilted-rectangles div {
+    width: 2em;
+    height: 3em;
+    background-color: #53778d;
+    transform: skewX(-20deg);
+    border-radius: 5px;
+}
+
+@media (max-width: 490px) {
+    .tilted-rectangles div {
+        width: 1em;
+        height: 1.2em;
+    }
+}

@@ -1,0 +1,56 @@
+[role="main"] {
+    display: flex;
+}
+
+.login-view-student {
+    background-color: #D9E9FF;
+    padding: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -30px;
+    width: 50%;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.login-view-student .images {
+ background: url(../pix/bg1.png) no-repeat center center;
+background-size: cover;
+display: flex
+;
+gap: 1em;
+width: 51%;
+align-items: center;
+justify-content: center;
+height: 50%;
+}
+
+.login-view-student .images img {
+    width: 95%;
+    height: 80%;
+}
+
+.login-view-student .login-imgtitle {
+    height: 5em;
+    padding: 0 9em;
+    display: flex;
+    text-align: center;
+}
+
+.login-view-student .login-imgtitle .login-title {
+    font-family: "Oxanium";
+}
+
+.login-view-student .tilted-rectangles {
+    display: flex;
+    gap: 10px;
+}
+
+.login-view-student .tilted-rectangles div {
+    width: 2em;
+    height: 3em;
+    background-color: #53778d;
+    transform: skewX(-20deg);
+    border-radius: 5px;
+}

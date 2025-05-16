@@ -177,10 +177,21 @@ $blocks-plus-gutter: $blocks-column-width + ( $grid-gutter-width * 0.5 );
         }
     }
 }
+.course-card{
+    .course-info-container{
+        .align-items-start{
+            .text-truncate{
+                a{
+                    color: black;
+                }
+            }
+        }
+    }
+}
 .course-card,
 .theme-card {
     .card-img-top {
-        height: 7rem;
+        height: 15rem;
         background-position: center;
         background-size: cover;
     }
@@ -242,7 +253,46 @@ $blocks-plus-gutter: $blocks-column-width + ( $grid-gutter-width * 0.5 );
 //
 // Block block_myoverview
 //
-
+// filechanges
+.generalbox{
+    .coursebox{
+        .info{
+            display: none;
+        }
+        .content{
+            .d-flex{
+                flex-direction: column;
+            .flex-grow-1{
+                .teachers{
+                    display: none;
+                }
+            }
+            .courseimage{
+                display: flex;
+                justify-content: center;
+                img{
+                    width: 50%;
+                    max-height: 25em !important;
+                }
+            }
+            }
+        }
+    }
+    .mform{
+    #id_selfheader{
+        display: none;
+    }
+    #fitem_id_submitbutton{
+        .felement{
+            #id_submitbutton{
+                background-color: #9c03fc;
+                width: 50%;
+                margin-left: 10em;
+            }
+        }
+    }
+    }
+}
 .block_myoverview {
     .content {
         min-height: 19.35rem;

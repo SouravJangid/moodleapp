@@ -4,18 +4,21 @@
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  * Copyright 2024 Fonticons, Inc.
  */
+ @import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;400;600;700&display=swap');
+
 :root, :host {
   --fa-style-family-brands: "Font Awesome 6 Brands";
   --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+  --font-family-sans-serif: 'Oxanium', sans-serif;
+}
+@font-face {
+  font-family: 'Oxanium';
+  src: url("[[font:core|Oxanium-VariableFont_wght.ttf]]") format('truetype');
+  font-weight: 400;
+  font-style: normal;
 }
 
-@font-face {
-  font-family: "Font Awesome 6 Brands";
-  font-style: normal;
-  font-weight: 400;
-  font-display: block;
-  src: url("[[font:core|fa-brands-400.woff2]]") format("woff2"), url("[[font:core|fa-brands-400.ttf]]") format("truetype");
-}
+
 .fab,
 .fa-brands {
   font-weight: 400;
@@ -13348,7 +13351,8 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
+  font-family: 'Oxanium';
   font-size: 0.9375rem;
   font-weight: 400;
   line-height: 1.5;
@@ -36903,7 +36907,7 @@ body.tox-fullscreen .tox.tox-tinymce-aux {
 @media (min-width: 768px) {
   .pagelayout-standard #page.drawers .main-inner,
   body.limitedwidth #page.drawers .main-inner {
-    max-width: 830px;
+    max-width: 100%;
   }
   .pagelayout-standard #page.drawers .footer-popover,
   body.limitedwidth #page.drawers .footer-popover {

@@ -58,8 +58,10 @@
     body.limitedwidth {
         #page.drawers {
             .main-inner {
-                max-width: $course-content-maxwidth;
+                // max-width: $course-content-maxwidth;
+                max-width: 100%;
             }
+            // }
             .footer-popover {
                 max-width: $course-content-maxwidth;
                 width: 100%;
@@ -69,7 +71,7 @@
         }
     }
     .header-maxwidth {
-        max-width: $course-content-maxwidth;
+        // max-width: $course-content-maxwidth;
         margin: 0 auto;
         padding-left: 15px;
         padding-right: 15px;

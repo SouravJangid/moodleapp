@@ -465,6 +465,7 @@ class core_course_renderer extends plugin_renderer_base {
         $coursename = $chelper->get_course_formatted_name($course);
         $coursenamelink = html_writer::link(new moodle_url('/course/view.php', ['id' => $course->id]),
             $coursename, ['class' => $course->visible ? 'aalink' : 'aalink dimmed']);
+            //somechangearehere
         $content .= html_writer::tag($nametag, $coursenamelink, ['class' => 'coursename']);
         // If we display course in collapsed form but the course has summary or course contacts, display the link to the info page.
         $content .= html_writer::start_tag('div', ['class' => 'moreinfo']);
@@ -474,6 +475,7 @@ class core_course_renderer extends plugin_renderer_base {
                 $url = new moodle_url('/course/info.php', ['id' => $course->id]);
                 $image = $this->output->pix_icon('i/info', $this->strings->summary);
                 $content .= html_writer::link($url, $image, ['title' => $this->strings->summary]);
+                
                 // Make sure JS file to expand course content is included.
                 $this->coursecat_include_js();
             }

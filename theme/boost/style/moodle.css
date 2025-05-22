@@ -15641,29 +15641,29 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #0f6cbf;
-  border-color: #0f6cbf;
+  background-color: #9C03FE;
+  border-color: #9C03FE;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #0c589c;
-  border-color: #0b5190;
+  background-color: #9e03fec0;
+  border-color: #9f2be7;
 }
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
-  background-color: #0c589c;
+  background-color: #9C03FE;
   border-color: #0b5190;
   box-shadow: 0 0 0 0.2rem rgba(51, 130, 201, 0.5);
 }
 .btn-primary.disabled, .btn-primary:disabled {
   color: #fff;
-  background-color: #0f6cbf;
-  border-color: #0f6cbf;
+  background-color: #9C03FE;
+  border-color: #9C03FE;
 }
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #0b5190;
-  border-color: #0a4b84;
+  background-color: #9C03FE;
+  border-color: #9C03FE;
 }
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(51, 130, 201, 0.5);
@@ -28372,37 +28372,37 @@ table.calendartable caption {
 .activity-item .activity-completion button.btn-primary,
 .activity-item .activity-completion a[role=button].btn-primary {
   color: #1d2125;
-  background-color: #cfe2f2;
-  border-color: #cfe2f2;
+  background-color: #9C03FE;
+  border-color: #9C03FE;
   color: #083660;
 }
 .activity-item .activity-completion button.btn-primary:hover,
 .activity-item .activity-completion a[role=button].btn-primary:hover {
   color: #fff;
-  background-color: #0f6cbf;
-  border-color: #a7cae7;
+  background-color: #9C03FE;
+  border-color: #9C03FE;
 }
 .activity-item .activity-completion button.btn-primary:focus, .activity-item .activity-completion button.btn-primary.focus,
 .activity-item .activity-completion a[role=button].btn-primary:focus,
 .activity-item .activity-completion a[role=button].btn-primary.focus {
   color: #fff;
-  background-color: #0f6cbf;
-  border-color: #a7cae7;
+  background-color: #9C03FE;
+  border-color: #9C03FE;
   box-shadow: 0 0 0 0.2rem rgba(180, 197, 211, 0.5);
 }
 .activity-item .activity-completion button.btn-primary.disabled, .activity-item .activity-completion button.btn-primary:disabled,
 .activity-item .activity-completion a[role=button].btn-primary.disabled,
 .activity-item .activity-completion a[role=button].btn-primary:disabled {
   color: #1d2125;
-  background-color: #cfe2f2;
-  border-color: #cfe2f2;
+  background-color: #9C03FE;
+  border-color: #9C03FE;
 }
 .activity-item .activity-completion button.btn-primary:not(:disabled):not(.disabled):active, .activity-item .activity-completion button.btn-primary:not(:disabled):not(.disabled).active, .show > .activity-item .activity-completion button.btn-primary.dropdown-toggle,
 .activity-item .activity-completion a[role=button].btn-primary:not(:disabled):not(.disabled):active,
 .activity-item .activity-completion a[role=button].btn-primary:not(:disabled):not(.disabled).active,
 .show > .activity-item .activity-completion a[role=button].btn-primary.dropdown-toggle {
   color: #1d2125;
-  background-color: #a7cae7;
+  background-color: #9C03FE;
   border-color: #9dc4e4;
 }
 .activity-item .activity-completion button.btn-primary:not(:disabled):not(.disabled):active:focus, .activity-item .activity-completion button.btn-primary:not(:disabled):not(.disabled).active:focus, .show > .activity-item .activity-completion button.btn-primary.dropdown-toggle:focus,
@@ -29420,12 +29420,12 @@ table.calendartable caption {
 }
 #course-category-listings .listing-pagination .yui3-button.active-page:hover {
   color: #fff;
-  background-color: #0c589c;
+  background-color: #9C03FE;
   border-color: #0b5190;
 }
 #course-category-listings .listing-pagination .yui3-button.active-page:focus, #course-category-listings .listing-pagination .yui3-button.active-page.focus {
   color: #fff;
-  background-color: #0c589c;
+  background-color: #9C03FE;
   border-color: #0b5190;
   box-shadow: 0 0 0 0.2rem rgba(51, 130, 201, 0.5);
 }
@@ -35152,6 +35152,11 @@ table .sticky-column {
 
 .continuebutton {
   text-align: center;
+  form{
+    button{
+      background-color: black;
+    }
+  }
 }
 
 p.arrow_button {
@@ -38223,7 +38228,7 @@ div.editor_atto_toolbar button .icon {
 .courseindex .courseindex-item:hover.pageitem,
 .courseindex .courseindex-item:hover .pageitem, .courseindex .courseindex-item:focus.pageitem,
 .courseindex .courseindex-item:focus .pageitem {
-  background-color: #0c589c;
+  background-color: #9C03FE;
   color: #e6e6e6;
 }
 .courseindex .courseindex-item:hover.pageitem .courseindex-link,

@@ -7,10 +7,10 @@
         padding: 0 0.5rem;
         .nav-tabs {
             border: none;
-            max-width: $course-content-maxwidth;
+            // max-width: $course-content-maxwidth;
             margin: 0 auto;
             .nav-link {
-                border-radius: initial;
+                border-radius: 0.5em;
             }
         }
     }
